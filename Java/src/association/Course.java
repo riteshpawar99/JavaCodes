@@ -1,16 +1,16 @@
 package association;
 
 public class Course {
-	private int courseId;
-	private String courseName;
+	private int cId;
+	private String cName;
 	private int totalStudents;
 	
 	public Course(int courseId, String courseName, int totalStudents) {
-		this.courseId = courseId;
-		this.courseName = courseName;
+		this.cId = courseId;
+		this.cName = courseName;
 		this.totalStudents = totalStudents;
 	}
 	public String toString() {
-		return "Course Details:\n"+courseId+"\t"+courseName+"\t"+totalStudents;
+		return "Course Details:\n"+cId+"\t"+cName+"\t"+totalStudents;
 	}
 }
