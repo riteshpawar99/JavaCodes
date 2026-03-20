@@ -1,4 +1,4 @@
-package task_6_4;
+package task_6_pro_4;
 
 interface Animal {
 	
